@@ -480,11 +480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eliot\\source\\repos\\Test1\\Test1\\Test1.csproj",
+      "projectUniqueName": "C:\\Users\\eliot\\Source\\Repos\\Cuatrimestre5\\Test1\\Test1\\Test1.csproj",
       "projectName": "Test1",
-      "projectPath": "C:\\Users\\eliot\\source\\repos\\Test1\\Test1\\Test1.csproj",
+      "projectPath": "C:\\Users\\eliot\\Source\\Repos\\Cuatrimestre5\\Test1\\Test1\\Test1.csproj",
       "packagesPath": "C:\\Users\\eliot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eliot\\source\\repos\\Test1\\Test1\\obj\\",
+      "outputPath": "C:\\Users\\eliot\\Source\\Repos\\Cuatrimestre5\\Test1\\Test1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
