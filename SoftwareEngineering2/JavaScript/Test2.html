@@ -5,7 +5,11 @@
 	<script>
 		function Concatenar()
 		{
-			var uno = document.getElementById('txtInput1').value;
+			alert(document.getElementById('txtInput1').value.concat(' ', document.getElementById('txtInput2').value));
+		}
+		function Write()
+		{
+			document.getElementById('txtCadena').value = document.getElementById('txtInput1').value.concat(' ', document.getElementById('txtInput2').value);
 		}
 	</script>
 </head>
@@ -20,7 +24,7 @@
 			<td><input id="txtInput2" type="text" value="Putita"></input></td>
 		</tr>
 		<tr>
-			<td><button id="btnConcatenar" type="submit" onclick="Concatenar()">Concatenar</button></td>
+			<td><button id="btnConcatenar" type="submit" onclick="Write()">Concatenar</button></td>
 		</tr>
 		<tr>
 			<td><p>Cadena 1 + cadena 2: </p></td>
