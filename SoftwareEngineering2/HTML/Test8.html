@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 8</title>
+	<script>
+		function Options()
+		{
+			  var table = document.getElementById("Table");
+			  var row = table.insertRow(-1);
+			  var cell1 = row.insertCell(0);
+			  var cell2 = row.insertCell(1);
+			  var cell3 = row.insertCell(2);
+			  var cell4 = row.insertCell(3);
+			  var cell5 = row.insertCell(4);
+			  var cell6 = row.insertCell(5);
+			  var cell7 = row.insertCell(6);
+			  var cell8 = row.insertCell(7);
+			  var cell9 = row.insertCell(8);
+			  var cell10 = row.insertCell(9);
+			  var celda = document.createElement("input");
+			  var combo = document.createElement("select");
+			  var valor1 = document.createElement("option");
+			  var valor2 = document.createElement("option");
+			  var valor3 = document.createElement("option");
+			  var valor4 = document.createElement("option");
+			  var palomita = document.createElement("input");
+			  var redondo = document.createElement("input");
+			  var imagen = document.createElement("img");
+			  imagen.src = "https://cinemania-cdn.s3.amazonaws.com/img/conts/a4281b3b3b59.jpg";
+			  imagen.style.height = "16px";
+			  imagen.style.width = "16px";
+			  redondo.type = "radio";
+			  palomita.type = "checkbox";
+			  valor1.text = "Thinner nuevo";
+			  valor2.text = "Gasolina robada";
+			  valor3.text = "Cerveza Azorrillada";
+			  valor4.text = "Boneless masticados";
+			  combo.add(valor1);
+			  combo.add(valor2);
+			  combo.add(valor3);
+			  combo.add(valor4);
+			  celda.type = ("text");
+			  cell1.innerHTML = "X";
+			  cell2.appendChild(celda);
+			  cell3.innerHTML = "Y";
+			  cell4.appendChild(combo);
+			  cell5.innerHTML = "Z"
+			  cell6.appendChild(redondo);
+			  cell7.innerHTML = "A";
+			  cell8.appendChild(palomita);
+			  cell9.innerHTML = "B";
+			  cell10.appendChild(imagen);
+		}
+	</script>
+</head>
+<body>
+	<button id="btnBoton" onclick="Options()">Add</button>
+	<table id="Table" border="1" cellspacing="0">
+		<tr>
+			<th colspan="9">Comanda</th>
+		</tr>
+	</table>
+</body>
+</html>
