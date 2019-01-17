@@ -21,6 +21,14 @@ namespace Leer_Escribir_Archivo
                 {
                     file.EditarArchivo();
                 }
+                else if (Console.ReadLine() == "2")
+                {
+                    Console.WriteLine("Adios");
+                }
+                else
+                {
+                    Console.WriteLine("Favor de escribir opción 1 o 2. El programa se cerrará.");
+                }
             }
             Console.ReadKey();
         }
