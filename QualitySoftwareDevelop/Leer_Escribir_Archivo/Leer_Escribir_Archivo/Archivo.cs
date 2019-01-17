@@ -58,6 +58,10 @@ namespace Leer_Escribir_Archivo
             {
                 Console.WriteLine("Error al leer el archivo. " + ex.ToString());
             }
+            finally
+            {
+                st.Close();
+            }
         }
 
         //public bool EsElFinal()
@@ -65,9 +69,31 @@ namespace Leer_Escribir_Archivo
 
         //}
 
-        //public bool EditarArchivo()
-        //{
-
-        //}
+        public bool EditarArchivo()
+        {
+            bool res = false;
+            try
+            {
+                String texto;
+                Console.Write("Introducir texto: ");
+                texto = Console.ReadLine();
+                StreamWriter sw = new StreamWriter(archivo + ".txt");
+                for (int i = 0; i < cadenas.Count; i++)
+                {
+                    sw.WriteLine(cadenas[i] + texto);
+                }
+                sw.Close();
+                res = true;
+            }
+            catch (IOException ioex)
+            {
+                Console.WriteLine("Error al editar el archivo: " + ioex.ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.StackTrace.ToString());
+            }
+            return res;
+        }
     }
 }

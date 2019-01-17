@@ -19,7 +19,7 @@ namespace Leer_Escribir_Archivo
                 file.DesplegarMenu();
                 if (Console.ReadLine() == "1")
                 {
-
+                    file.EditarArchivo();
                 }
             }
             Console.ReadKey();
