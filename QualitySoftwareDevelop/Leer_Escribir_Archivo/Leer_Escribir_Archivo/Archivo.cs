@@ -33,6 +33,9 @@ namespace Leer_Escribir_Archivo
             return flag;
         }
 
+        /// <summary>
+        /// Shows the file menú.
+        /// </summary>
         public void DesplegarMenu()
         {
                 Console.WriteLine("\r\n" + "---Programa de lectura y escritura de archivos---");
@@ -43,6 +46,9 @@ namespace Leer_Escribir_Archivo
                 Console.Write("C:>");
         }
 
+        /// <summary>
+        /// Shows the file text.
+        /// </summary>
         public void MostrarTextoLeido()
         {
             try
@@ -64,10 +70,23 @@ namespace Leer_Escribir_Archivo
             }
         }
 
-        //public bool EsElFinal()
-        //{
+        public bool EsElFinal()
+        {
+            bool res = false;
+            try
+            {
 
-        //}
+            }
+            catch (IOException ioex)
+            {
+                Console.WriteLine("Error al finalizar la cadena: " + ioex.StackTrace.ToLower());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.ToString());
+            }
+            return res;
+        }
 
         public bool EditarArchivo()
         {
