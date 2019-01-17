@@ -19,6 +19,7 @@ namespace Leer_Escribir_Archivo
             try
             {
                 st = new StreamReader(arch);
+                Console.WriteLine("\r\n" + "Texto:");
                 flag = true;
             }
             catch (IOException Ioex)
@@ -34,21 +35,29 @@ namespace Leer_Escribir_Archivo
 
         public void DesplegarMenu()
         {
-            Console.WriteLine("---Programa de lectura y escritura de archivos---");
-            Console.WriteLine("-- Archivo: nombre del archivo --");
-            Console.WriteLine("Seleccione lo que quiere hacer");
-            Console.WriteLine("1. Editar");
-            Console.WriteLine("2. Salir");
-            Console.WriteLine("C:>");
+                Console.WriteLine("\r\n" + "---Programa de lectura y escritura de archivos---");
+                Console.WriteLine("-- Archivo: nombre del archivo --");
+                Console.WriteLine("Seleccione lo que quiere hacer");
+                Console.WriteLine("1. Editar");
+                Console.WriteLine("2. Salir");
+                Console.Write("C:>");
         }
 
         public void MostrarTextoLeido()
         {
-            for (int i = 0; i < File.; i++)
+            try
             {
-
+                cadenas = new List<string>();
+                cadenas.Add(st.ReadToEnd());
+                for (int i = 0; i < cadenas.Count; i++)
+                {
+                    Console.WriteLine(cadenas[i]);
+                }
             }
-            cadenas = File.ReadAllText(archivo).li
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al leer el archivo. " + ex.ToString());
+            }
         }
 
         //public bool EsElFinal()

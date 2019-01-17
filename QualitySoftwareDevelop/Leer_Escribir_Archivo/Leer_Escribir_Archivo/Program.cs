@@ -15,7 +15,12 @@ namespace Leer_Escribir_Archivo
             file.archivo = Console.ReadLine();
             if(file.ExisteArchivo(file.archivo + ".txt"))
             {
+                file.MostrarTextoLeido();
                 file.DesplegarMenu();
+                if (Console.ReadLine() == "1")
+                {
+
+                }
             }
             Console.ReadKey();
         }
