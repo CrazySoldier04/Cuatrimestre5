@@ -10,6 +10,14 @@ namespace Leer_Escribir_Archivo
     {
         static void Main(string[] args)
         {
+            Archivo file = new Archivo();
+            Console.WriteLine("Nombre del archivo: ");
+            file.archivo = Console.ReadLine();
+            if(file.ExisteArchivo(file.archivo + ".txt"))
+            {
+                file.DesplegarMenu();
+            }
+            Console.ReadKey();
         }
     }
 }
