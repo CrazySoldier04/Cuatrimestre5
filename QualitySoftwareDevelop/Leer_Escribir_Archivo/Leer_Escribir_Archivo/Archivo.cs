@@ -17,7 +17,7 @@ namespace Leer_Escribir_Archivo
         /// Valida si el archivo ingresado existe.
         /// </summary>
         /// <param name="arch">Especifica el nombre del archivo.</param>
-        /// <returns>Verdadero si encuentra el archivo, Falso si no existe el archivo.</returns>
+        /// <returns>VERDADERO si encuentra el archivo, FALSO si no existe el archivo.</returns>
         public bool ExisteArchivo(String arch)
         {
             bool flag = false;
@@ -39,7 +39,7 @@ namespace Leer_Escribir_Archivo
         }
 
         /// <summary>
-        /// Shows the file menú.
+        /// Muestra el menú.
         /// </summary>
         public void DesplegarMenu()
         {
@@ -52,7 +52,7 @@ namespace Leer_Escribir_Archivo
         }
 
         /// <summary>
-        /// Shows the file text.
+        /// Muestra el contenido del archivo seleccionado.
         /// </summary>
         public void MostrarTextoLeido()
         {
@@ -81,6 +81,10 @@ namespace Leer_Escribir_Archivo
             }
         }
 
+        /// <summary>
+        /// Edita el archivo seleccionado.
+        /// </summary>
+        /// <returns>Regresa VERDADERO si se edita correctamente, FALSO si ocurre un error.</returns>
         public bool EditarArchivo()
         {
             bool res = false;
@@ -88,7 +92,6 @@ namespace Leer_Escribir_Archivo
             try
             {
                 String texto;
-                List<String> lista = new List<string>();
                 Console.Write("Introducir texto: ");
                 texto = Console.ReadLine();
                 foreach (String tex in texto.Split('X', 'x'))
