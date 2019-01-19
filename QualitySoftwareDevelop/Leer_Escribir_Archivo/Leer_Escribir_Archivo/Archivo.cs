@@ -13,6 +13,11 @@ namespace Leer_Escribir_Archivo
         List<String> cadenas;
         StreamReader st;
 
+        /// <summary>
+        /// Valida si el archivo ingresado existe.
+        /// </summary>
+        /// <param name="arch">Especifica el nombre del archivo.</param>
+        /// <returns>Verdadero si encuentra el archivo, Falso si no existe el archivo.</returns>
         public bool ExisteArchivo(String arch)
         {
             bool flag = false;
@@ -53,8 +58,14 @@ namespace Leer_Escribir_Archivo
         {
             try
             {
+                int cont = 0;
+                String texto;
                 cadenas = new List<string>();
-                cadenas.Add(st.ReadToEnd());
+                while ((texto = st.ReadLine()) != null)
+                {
+                    cadenas.Add(texto);
+                    cont++;
+                }
                 for (int i = 0; i < cadenas.Count; i++)
                 {
                     Console.WriteLine(cadenas[i]);
@@ -70,38 +81,27 @@ namespace Leer_Escribir_Archivo
             }
         }
 
-        public bool EsElFinal()
-        {
-            bool res = false;
-            try
-            {
-
-            }
-            catch (IOException ioex)
-            {
-                Console.WriteLine("Error al finalizar la cadena: " + ioex.StackTrace.ToLower());
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.ToString());
-            }
-            return res;
-        }
-
         public bool EditarArchivo()
         {
             bool res = false;
+            StreamWriter sw = new StreamWriter(archivo + ".txt");
             try
             {
                 String texto;
+                List<String> lista = new List<string>();
                 Console.Write("Introducir texto: ");
                 texto = Console.ReadLine();
-                StreamWriter sw = new StreamWriter(archivo + ".txt");
+                foreach (String tex in texto.Split('X', 'x'))
+                {
+                    if (!String.IsNullOrEmpty(tex))
+                    {
+                        cadenas.Add(tex);
+                    }
+                }
                 for (int i = 0; i < cadenas.Count; i++)
                 {
-                    sw.WriteLine(cadenas[i] + texto);
+                    sw.WriteLine(cadenas[i]);
                 }
-                sw.Close();
                 res = true;
             }
             catch (IOException ioex)
@@ -111,6 +111,10 @@ namespace Leer_Escribir_Archivo
             catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex.StackTrace.ToString());
+            }
+            finally
+            {
+                sw.Close();
             }
             return res;
         }
