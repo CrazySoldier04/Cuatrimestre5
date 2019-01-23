@@ -18,6 +18,10 @@ namespace Potencia_Raiz
             {
                 Console.WriteLine("El campo está vacío.");
             }
+            else if (!RegularExpresions.numeros(Console.ReadLine()))
+            {
+                Console.WriteLine("No introducir números");
+            }
             else
             {
                 numero = Convert.ToDouble(Console.ReadLine());
