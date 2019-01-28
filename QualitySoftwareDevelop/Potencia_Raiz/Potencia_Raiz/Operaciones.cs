@@ -26,19 +26,24 @@ namespace Potencia_Raiz
             return res;
         }
 
-        public static double Raiz(int numero, int expo)
+        public static double Raiz(double numero, int potencia)
         {
-            double res = 0;
+            double rad = numero;
+            double tot = 0;
             try
             {
-                res = (numero ^ (1 / expo));
-                Console.WriteLine(res);
+                while (tot != rad)
+                {
+                    tot = rad;
+                    rad = (numero / rad + rad) / potencia;
+                }
+                Console.Write(rad);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex.ToString());
             }
-            return res;
+            return rad;
         }
     }
 }
