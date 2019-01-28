@@ -15,6 +15,7 @@ namespace Calculo_IVA
         /// <returns>Regresa el IVA calculado del monto ingresado.</returns>
         public static double IVAMexico (double cantidad)
         {
+            Console.WriteLine("El IVA es: " + cantidad * 0.16);
             return (cantidad * 0.16);
         }
 
@@ -25,20 +26,8 @@ namespace Calculo_IVA
         /// <returns>Regresa el IVA calculado del monto ingresado.</returns>
         public static double IVAFrontera (double cantidad)
         {
+            Console.WriteLine("El IVA es: " + cantidad * 0.08);
             return (cantidad * 0.08);
-        }
-
-        public static double ValidarDouble(String cantidad)
-        {
-            double cantDouble;
-            if(double.TryParse(cantidad, out cantDouble))
-            {
-                return cantDouble;
-            }
-            else
-            {
-                return -1;
-            }
         }
     }
 }

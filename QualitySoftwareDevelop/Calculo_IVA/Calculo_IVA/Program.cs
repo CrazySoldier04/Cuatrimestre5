@@ -10,11 +10,28 @@ namespace Calculo_IVA
     {
         static void Main(string[] args)
         {
+            double num = 0;
+            bool val;
             Console.WriteLine("Cálculo del IVA 16% en el estado de la república mexicana: ");
-            double cant = Calculo.ValidarDouble("cloro");
-            Calculo.IVAMexico(Convert.ToDouble(Console.ReadLine()));
+            val = double.TryParse(Console.ReadLine(), out num);
+            if (!val)
+            {
+                Console.WriteLine("Tipo de dato incorrecto.");
+            }
+            else
+            {
+                Calculo.IVAMexico(num);
+            }
             Console.WriteLine("Cálculo del IVA 8% en el estado de la república mexicana: ");
-            Calculo.IVAFrontera(Convert.ToDouble(Console.ReadLine()));
+            val = double.TryParse(Console.ReadLine(), out num);
+            if (!val)
+            {
+                Console.WriteLine("Tipo de dato incorrecto.");
+            }
+            else
+            {
+                Calculo.IVAFrontera(num);
+            }
             Console.ReadKey();
         }
     }
