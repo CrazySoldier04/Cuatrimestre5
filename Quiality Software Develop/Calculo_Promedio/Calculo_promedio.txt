@@ -1,0 +1,12 @@
+Calculo de promedio.
+
+RF01: El sistema debe de calcular el promedio de las cantidades numéricas ingresadas por el
+usuario en el formulario.
+
+RF02: El sistema validará que las cantidades ingresadas por el usuario contegan formato DOUBLE,
+de no tener el formato correcto, el sistema desplegará un mensaje de error.
+
+RF03: El sistema validará que los campos no estén vaciós.
+
+RNF01: El sistema desplegará los resultados de la operación en un label para que el usuario pueda
+visualizarlos.

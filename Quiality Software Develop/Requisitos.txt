@@ -1,0 +1,23 @@
+RF01: El sistema debe permitir la validación de la existencia del archivo que se obtuvo de los
+parámetros del programa en consola. Si este NO EXISTE, el programa se termina.
+
+RF02: El sistema desplegará un menú después de abrir el archivo, con el cuál se permite la entrada de la selección
+del usuario, los cuáles son EDITAR y SALIR.
+
+RF03: El sistema leerá los contenidos del archivo y los mostrará en consola para después
+desplegar el menú.
+
+RF04: El sistema permite recibir cadenar leídas por teclado y almacenarlas al final del archivo.
+El final de la cadena debe estar por "XxX".
+
+RNF01: El sistema permite agregarle un archivo a editar desde su ejecución en consola por
+parámetros de consola.
+
+RNF02: El sistema mostrará el menú de opciones después de abrir y leer el archivo, el cuál será
+de esta forma:
+--- Programa de lectura y escritura de archivos ---
+-- Archivo: nombre del archivo --
+Seleccione lo que quiere hacer:
+-- 1 Editar
+-- 2 Salir
+C:>_
