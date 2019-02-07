@@ -1,0 +1,21 @@
+Desarrollar en php un programa para el cálculo de porcentajes sobre la suma de 6 cantidades que se
+ingresan partir de un formulario de 6 textoboxes  y un submit.
+
+El porcentaje se selecciona en un combo. Estos van del 20, 25, 50, 75 y 80.
+
+El resultado del cálculo del porcentaje seleccionado se muestra en un texto.
+
+Requisitos funcionales:
+RF01: El sistema calculará el porcentaje de 6 cantidades ingresadas por el usuario en los diferentes
+textboxes.
+RF02: El sistema validará que el formato ingresado por el usuario en los textboxes sean de tipo
+DOUBLE.
+RF03: El sistema validará que los campos de los textboxes no sean vacíos.
+
+Requisitos no funcionales:
+RNF01: El sistema desplegará un listado con los diferentes porcentajes que el sistema va a poder
+calcular.
+RNF02: El sistema mostrará el resultado en pantalla del cálculo del porcentaje.
+RNF03: Si los datos ingresados por el usuario no cumplen con el formato DOUBLE, el sistema desplegará
+un error en pantalla.
+RNF4: Si los campos están vacíos, el sistema desplegará un mensaje de error al usuario.
