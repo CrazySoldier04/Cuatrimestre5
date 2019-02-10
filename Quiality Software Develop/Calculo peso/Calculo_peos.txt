@@ -1,0 +1,16 @@
+Desarrollar un programa que permita el cálculo de la estatura y peso promedio de una lista de
+10 personas, y sus datos de nombre peso y estatura.
+El resultado se imprime en una tabla HTML donde pondremos el peso y estatura promedio en
+columnas separadas.
+
+Requisitos funcionales.
+RF01: El sistema debe de calcular el peso y la estatura promedio que el usuario ingrese en los textbox.
+RF02: El sistema debe de validar que el formato de lo que capture el usuario sea de tipo DOUBLE.
+RF03: El sistema debe de validar que no se puedan ingresar datos vacíos para realizar el cálculo.
+
+
+Requisitos no funcionales.
+RNF01: Si los valores que el usuario ingresa en los textboxes no son de tipo DOUBLE, el sistema
+desplegará un mensaje de error en pantalla.
+RNF02: El sistema mostrará el resultado de los cálculos en una tabla, y al final de la misma
+mostrará la estatura y peso promedio ingresados.

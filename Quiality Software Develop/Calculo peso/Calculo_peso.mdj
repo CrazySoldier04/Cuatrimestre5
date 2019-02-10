@@ -1,0 +1,993 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Calculo_peso",
+	"ownedElements": [
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFo2Gaw7+iKWu0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Calculo_peso",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFo2Gaw8OiLc60=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Calculo_peso_FlowchartDiagram",
+					"ownedViews": [
+						{
+							"_type": "FCPreparationView",
+							"_id": "AAAAAAFo2GcowOiTmFc=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GcovuiRlfw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2GcowOiUMcw=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GcowOiTmFc="
+									},
+									"font": "Arial;13;0",
+									"left": 401,
+									"top": 50,
+									"width": 44.43896484375,
+									"height": 13,
+									"text": "Inicio",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 376,
+							"top": 40,
+							"width": 94.43896484375,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GcowOiUMcw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo2Gedh+idDWU=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GedhuibhB8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2Gedh+ieFpQ=",
+									"_parent": {
+										"$ref": "AAAAAAFo2Gedh+idDWU="
+									},
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 122,
+									"width": 55.6435546875,
+									"height": 78,
+									"text": "Usuario ingresa los valores en los textboxes",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 112,
+							"width": 75.6435546875,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2Gedh+ieFpQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2GfcouinejU=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GfcoeilSH0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2Gfcouio3w0=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GfcouinejU="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2GfcoeilSH0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 436,
+									"top": 85,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2GfcouinejU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2Gedh+idDWU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2GcowOiTmFc="
+							},
+							"lineStyle": 2,
+							"points": "422:72;422:112",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2Gfcouio3w0="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFo2Gf2nuiwPj4=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2Gf2n+ixLoc=",
+									"_parent": {
+										"$ref": "AAAAAAFo2Gf2nuiwPj4="
+									},
+									"font": "Arial;13;0",
+									"left": 380.542236328125,
+									"top": 280.5,
+									"width": 73.08447265625,
+									"height": 65,
+									"text": "El sistema valida que no haya espacios vacíos",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 248,
+							"width": 146.1689453125,
+							"height": 130,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2Gf2n+ixLoc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2GosAejAZik=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GosAOi+jX0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2GosAejBQN0=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GosAejAZik="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2GosAOi+jX0="
+									},
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 221,
+									"width": 130.06982421875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2GosAejAZik="
+									},
+									"edgePosition": 1,
+									"text": "Se validan los campos"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2Gf2nuiwPj4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2Gedh+idDWU="
+							},
+							"lineStyle": 2,
+							"points": "419:209;419:248",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GosAejBQN0="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFo2GqbiejK/rU=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2GqbiejL1w0=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GqbiejK/rU="
+									},
+									"font": "Arial;13;0",
+									"left": 367.798583984375,
+									"top": 477.5,
+									"width": 95.59716796875,
+									"height": 91,
+									"text": "El sistema valida que los datos ingresados cumplan con el tipo de dato DOUBLE",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 432,
+							"width": 191.1943359375,
+							"height": 182,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GqbiejL1w0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2GskW+jYIQ4=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GskWujWkZI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2GskW+jZOH8=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GskW+jYIQ4="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2GskWujWkZI="
+									},
+									"font": "Arial;13;0",
+									"left": 343,
+									"top": 397,
+									"width": 175.5888671875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2GskW+jYIQ4="
+									},
+									"edgePosition": 1,
+									"text": "Si los campos no están vacíos"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2GqbiejK/rU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2Gf2nuiwPj4="
+							},
+							"lineStyle": 2,
+							"points": "416:377;416:432",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GskW+jZOH8="
+							}
+						},
+						{
+							"_type": "FCDocumentView",
+							"_id": "AAAAAAFo2GuBeOjiYDs=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GuBd+jg330="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2GuBeOjjH5g=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GuBeOjiYDs="
+									},
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 266,
+									"width": 114.47900390625,
+									"height": 62,
+									"text": "El sistema desplegará un mensaje de error indicando que los campos están vacíos",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 256,
+							"width": 134.47900390625,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GuBeOjjH5g="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2GvxLOjvryc=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GvxK+jtnY8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2GvxLOjwPM8=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GvxLOjvryc="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2GvxK+jtnY8="
+									},
+									"font": "Arial;13;0",
+									"left": 479,
+									"top": 288,
+									"width": 152.47705078125,
+									"height": 13,
+									"alpha": -4.171969970310328,
+									"distance": 17.4928556845359,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2GvxLOjvryc="
+									},
+									"edgePosition": 1,
+									"text": "Si algún campo esta vacío"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2GuBeOjiYDs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2Gf2nuiwPj4="
+							},
+							"lineStyle": 2,
+							"points": "489:310;640:310",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GvxLOjwPM8="
+							}
+						},
+						{
+							"_type": "FCDocumentView",
+							"_id": "AAAAAAFo2GyNE+j7qzM=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2GyNE+j5XP4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2GyNE+j8LKU=",
+									"_parent": {
+										"$ref": "AAAAAAFo2GyNE+j7qzM="
+									},
+									"font": "Arial;13;0",
+									"left": 706,
+									"top": 466,
+									"width": 98.47900390625,
+									"height": 88,
+									"text": "El sistema desplegará un mensaje de error en pantalla indicando que el tipo de dato es incorrecto",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 696,
+							"top": 456,
+							"width": 118.47900390625,
+							"height": 129,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2GyNE+j8LKU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2G0BeOkH31M=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G0BdukFx8w="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2G0BeekIM5Y=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G0BeOkH31M="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2G0BdukFx8w="
+									},
+									"font": "Arial;13;0",
+									"left": 504,
+									"top": 500,
+									"width": 185.0087890625,
+									"height": 13,
+									"alpha": -4.275762368016544,
+									"distance": 16.55294535724685,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2G0BeOkH31M="
+									},
+									"edgePosition": 1,
+									"text": "Si no cumple con el tipo de dato"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2GyNE+j7qzM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2GqbiejK/rU="
+							},
+							"lineStyle": 2,
+							"points": "510:522;696:522",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G0BeekIM5Y="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo2G4SfOkXgp8=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G4SfOkVs88="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2G4SfekYWi8=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G4SfOkXgp8="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 698,
+									"width": 105.7490234375,
+									"height": 65,
+									"text": "Se lleva a cabo la asignación de las variables con sus respectivos valores",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 688,
+							"width": 125.7490234375,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G4SfekYWi8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2G6jUukjcnQ=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G6jUukhVQU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2G6jUukk2Y4=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G6jUukjcnQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2G6jUukhVQU="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 643,
+									"width": 166.93701171875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2G6jUukjcnQ="
+									},
+									"edgePosition": 1,
+									"text": "Si cumple con el tipo de dato"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2G4SfOkXgp8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2GqbiejK/rU="
+							},
+							"lineStyle": 2,
+							"points": "415:613;415:688",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G6jUukk2Y4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo2G8EXuktdk4=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G8EXekr25w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2G8EXukuJeU=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G8EXuktdk4="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 866,
+									"width": 95.59716796875,
+									"height": 52,
+									"text": "Se lleva a cabo el promedio de los datos ingresados",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 856,
+							"width": 115.59716796875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G8EXukuJeU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2G9h/Ok5ImY=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G9h/Ok3Oyk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2G9h/Ok66eo=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G9h/Ok5ImY="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2G9h/Ok3Oyk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 427,
+									"top": 807,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2G9h/Ok5ImY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2G8EXuktdk4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2G4SfOkXgp8="
+							},
+							"lineStyle": 2,
+							"points": "413:772;413:856",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G9h/Ok66eo="
+							}
+						},
+						{
+							"_type": "FCDocumentView",
+							"_id": "AAAAAAFo2G9/SulCc08=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2G9/SulA6xE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2G9/SulDIws=",
+									"_parent": {
+										"$ref": "AAAAAAFo2G9/SulCc08="
+									},
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 842,
+									"width": 107.208984375,
+									"height": 81,
+									"text": "Se imprime en una tabla los datos ingresados, así como el resultado del cálculo al final de la misma",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 832,
+							"width": 127.208984375,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2G9/SulDIws="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2HAgyelR1Jg=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2HAgyelP/MU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2HAgyulSado=",
+									"_parent": {
+										"$ref": "AAAAAAFo2HAgyelR1Jg="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2HAgyelP/MU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 553,
+									"top": 871,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2HAgyelR1Jg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2G9/SulCc08="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2G8EXuktdk4="
+							},
+							"lineStyle": 2,
+							"points": "467:892;640:892",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2HAgyulSado="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAFo2HAxZulaQ7Q=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2HAxZelYKP0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo2HAxZulbvfw=",
+									"_parent": {
+										"$ref": "AAAAAAFo2HAxZulaQ7Q="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 706,
+									"width": 68.63720703125,
+									"height": 13,
+									"text": "Fin",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 648,
+							"top": 696,
+							"width": 88.63720703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFo2HAxZulbvfw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo2HBJReljP68=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gaw8OiLc60="
+							},
+							"model": {
+								"$ref": "AAAAAAFo2HBJRelhy8A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo2HBJRelk5O4=",
+									"_parent": {
+										"$ref": "AAAAAAFo2HBJReljP68="
+									},
+									"model": {
+										"$ref": "AAAAAAFo2HBJRelhy8A="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 681,
+									"top": 773,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo2HBJReljP68="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo2HAxZulaQ7Q="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo2G9/SulCc08="
+							},
+							"lineStyle": 2,
+							"points": "696:832;696:728",
+							"nameLabel": {
+								"$ref": "AAAAAAFo2HBJRelk5O4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCPreparation",
+					"_id": "AAAAAAFo2GcovuiRlfw=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Inicio",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2GfcoeilSH0=",
+							"_parent": {
+								"$ref": "AAAAAAFo2GcovuiRlfw="
+							},
+							"source": {
+								"$ref": "AAAAAAFo2GcovuiRlfw="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2GedhuibhB8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo2GedhuibhB8=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Usuario ingresa los valores en los textboxes",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2GosAOi+jX0=",
+							"_parent": {
+								"$ref": "AAAAAAFo2GedhuibhB8="
+							},
+							"name": "Se validan los campos",
+							"source": {
+								"$ref": "AAAAAAFo2GedhuibhB8="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFo2Gf2nuiupic=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "El sistema valida que no haya espacios vacíos",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2GskWujWkZI=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							},
+							"name": "Si los campos no están vacíos",
+							"source": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2GvxK+jtnY8=",
+							"_parent": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							},
+							"name": "Si algún campo esta vacío",
+							"source": {
+								"$ref": "AAAAAAFo2Gf2nuiupic="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2GuBd+jg330="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFo2GqbiejI+y8=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "El sistema valida que los datos ingresados cumplan con el tipo de dato DOUBLE",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2G0BdukFx8w=",
+							"_parent": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							},
+							"name": "Si no cumple con el tipo de dato",
+							"source": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2GyNE+j5XP4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2G6jUukhVQU=",
+							"_parent": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							},
+							"name": "Si cumple con el tipo de dato",
+							"source": {
+								"$ref": "AAAAAAFo2GqbiejI+y8="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2G4SfOkVs88="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDocument",
+					"_id": "AAAAAAFo2GuBd+jg330=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "El sistema desplegará un mensaje de error indicando que los campos están vacíos"
+				},
+				{
+					"_type": "FCDocument",
+					"_id": "AAAAAAFo2GyNE+j5XP4=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "El sistema desplegará un mensaje de error en pantalla indicando que el tipo de dato es incorrecto"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo2G4SfOkVs88=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Se lleva a cabo la asignación de las variables con sus respectivos valores",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2G9h/Ok3Oyk=",
+							"_parent": {
+								"$ref": "AAAAAAFo2G4SfOkVs88="
+							},
+							"source": {
+								"$ref": "AAAAAAFo2G4SfOkVs88="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2G8EXekr25w="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo2G8EXekr25w=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Se lleva a cabo el promedio de los datos ingresados",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2HAgyelP/MU=",
+							"_parent": {
+								"$ref": "AAAAAAFo2G8EXekr25w="
+							},
+							"source": {
+								"$ref": "AAAAAAFo2G8EXekr25w="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2G9/SulA6xE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDocument",
+					"_id": "AAAAAAFo2G9/SulA6xE=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Se imprime en una tabla los datos ingresados, así como el resultado del cálculo al final de la misma",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo2HBJRelhy8A=",
+							"_parent": {
+								"$ref": "AAAAAAFo2G9/SulA6xE="
+							},
+							"source": {
+								"$ref": "AAAAAAFo2G9/SulA6xE="
+							},
+							"target": {
+								"$ref": "AAAAAAFo2HAxZelYKP0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAFo2HAxZelYKP0=",
+					"_parent": {
+						"$ref": "AAAAAAFo2Gaw7+iKWu0="
+					},
+					"name": "Fin"
+				}
+			]
+		}
+	]
+}
