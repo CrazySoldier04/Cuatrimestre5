@@ -1,0 +1,887 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Mandar_correos",
+	"ownedElements": [
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFo/IAtaViAdNc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Mandar_correos",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFo/IAtaViBRUU=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Mandar_correos_FlowchartDiagram",
+					"ownedViews": [
+						{
+							"_type": "FCPreparationView",
+							"_id": "AAAAAAFo/ICcxliJhOo=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ICcxViHid0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/ICcx1iKw2A=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ICcxliJhOo="
+									},
+									"font": "Arial;13;0",
+									"left": 409,
+									"top": 34,
+									"width": 44.43896484375,
+									"height": 13,
+									"text": "Inicio",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 24,
+							"width": 94.43896484375,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ICcx1iKw2A="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo/IEK1ViT/fE=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IEK1FiRy8I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IEK1ViU2PU=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IEK1ViT/fE="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 114,
+									"width": 99.208984375,
+									"height": 39,
+									"text": "Usuario captura destinatario de correo",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 104,
+							"width": 119.208984375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IEK1ViU2PU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo/IFbhVifJBI=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IFbhVidthA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IFbhligNOA=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IFbhVifJBI="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 226,
+									"width": 102.8671875,
+									"height": 52,
+									"text": "Usuario captura el asunto del correo electrónico",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 216,
+							"width": 122.8671875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IFbhligNOA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo/IG0LlisvRo=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IG0LliqYzM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IG0Llit3P8=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IG0LlisvRo="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 354,
+									"width": 134.18994140625,
+									"height": 39,
+									"text": "Usuario captura el mensaje que desea enviar",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 344,
+							"width": 154.18994140625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IG0Llit3P8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/ILPYli7Ghc=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ILPYVi5lRg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/ILPY1i8spo=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ILPYli7Ghc="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/ILPYVi5lRg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 443,
+									"top": 73,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/ILPYli7Ghc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IEK1ViT/fE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/ICcxliJhOo="
+							},
+							"lineStyle": 2,
+							"points": "429:56;429:104",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ILPY1i8spo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/ILa5FjEff0=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ILa41jChrg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/ILa5FjF1IU=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ILa5FjEff0="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/ILa41jChrg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 441,
+									"top": 182,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/ILa5FjEff0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IFbhVifJBI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/IEK1ViT/fE="
+							},
+							"lineStyle": 2,
+							"points": "427:162;427:216",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ILa5FjF1IU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/ILmsljNfX8=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ILmsljLRWM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/ILmsljOklM=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ILmsljNfX8="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/ILmsljLRWM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 308,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/ILmsljNfX8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IG0LlisvRo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/IFbhVifJBI="
+							},
+							"lineStyle": 2,
+							"points": "428:287;428:344",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ILmsljOklM="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFo/INhi1jWwTE=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/INhi1jXZ0A=",
+									"_parent": {
+										"$ref": "AAAAAAFo/INhi1jWwTE="
+									},
+									"font": "Arial;13;0",
+									"left": 390.542236328125,
+									"top": 482,
+									"width": 77.08447265625,
+									"height": 52,
+									"text": "El sistema valida que el asunto no este vacío",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 456,
+							"width": 154.1689453125,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/INhi1jXZ0A="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/IPccVjiHko=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IPccVjgD10="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/IPccljjjTk=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IPccVjiHko="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/IPccVjgD10="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 422,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/IPccVjiHko="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/INhi1jWwTE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/IG0LlisvRo="
+							},
+							"lineStyle": 2,
+							"points": "428:402;428:456",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IPccljjjTk="
+							}
+						},
+						{
+							"_type": "FCDocumentView",
+							"_id": "AAAAAAFo/IPvkljrAPo=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IPvkljpbWI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IPvkljspBk=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IPvkljrAPo="
+									},
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 490,
+									"width": 138.47900390625,
+									"height": 41,
+									"text": "El sistema despliega un mensaje de error indicando que el asunto está vacío",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 480,
+							"width": 158.47900390625,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IPvkljspBk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/ISi81j3b78=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ISi81j1weM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/ISi81j4+m0=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ISi81j3b78="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/ISi81j1weM="
+									},
+									"font": "Arial;13;0",
+									"left": 535,
+									"top": 493,
+									"width": 74.42626953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/ISi81j3b78="
+									},
+									"edgePosition": 1,
+									"text": "Si está vacío"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IPvkljrAPo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/INhi1jWwTE="
+							},
+							"lineStyle": 2,
+							"points": "505:514;640:514",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ISi81j4+m0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFo/ITvz1kBYxg=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/ITvz1j/4TM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/ITvz1kCffI=",
+									"_parent": {
+										"$ref": "AAAAAAFo/ITvz1kBYxg="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 482,
+									"width": 99.208984375,
+									"height": 52,
+									"text": "El sistema manda el correo electrónico a destinatario",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 472,
+							"width": 119.208984375,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/ITvz1kCffI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/IU/S1kNG/8=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IU/SlkL0sU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/IU/S1kOVHs=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IU/S1kNG/8="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/IU/SlkL0sU="
+									},
+									"font": "Arial;13;0",
+									"left": 231,
+									"top": 487,
+									"width": 92.498046875,
+									"height": 13,
+									"alpha": -1.4181477498448052,
+									"distance": 13.152946437965905,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/IU/S1kNG/8="
+									},
+									"edgePosition": 1,
+									"text": "Si no está vacío"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/ITvz1kBYxg="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/INhi1jWwTE="
+							},
+							"lineStyle": 2,
+							"points": "352:507;206:507",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IU/S1kOVHs="
+							}
+						},
+						{
+							"_type": "FCDocumentView",
+							"_id": "AAAAAAFo/IWIuVkYTqo=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IWIuVkWK/s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IWIulkZams=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IWIuVkYTqo="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 370,
+									"width": 138.47900390625,
+									"height": 30,
+									"text": "El sistema despliega un mensaje de correo electrónico enviado",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 360,
+							"width": 158.47900390625,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IWIulkZams="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/IXf61kk1vw=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IXf6lkiZdM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/IXf61klP1M=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IXf61kk1vw="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/IXf6lkiZdM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 134,
+									"top": 438,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/IXf61kk1vw="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IWIuVkYTqo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/ITvz1kBYxg="
+							},
+							"lineStyle": 2,
+							"points": "149:472;149:418",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IXf61klP1M="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAFo/IX0mlkt0lU=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IX0mlkrHdM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFo/IX0mlkufg0=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IX0mlkt0lU="
+									},
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 250,
+									"width": 68.63720703125,
+									"height": 13,
+									"text": "Fin",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 96,
+							"top": 240,
+							"width": 88.63720703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IX0mlkufg0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFo/IYT8Fk3IuI=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IAtaViBRUU="
+							},
+							"model": {
+								"$ref": "AAAAAAFo/IYT8Fk1CV8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFo/IYT8Fk4Ijc=",
+									"_parent": {
+										"$ref": "AAAAAAFo/IYT8Fk3IuI="
+									},
+									"model": {
+										"$ref": "AAAAAAFo/IYT8Fk1CV8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 125,
+									"top": 309,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFo/IYT8Fk3IuI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFo/IX0mlkt0lU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFo/IWIuVkYTqo="
+							},
+							"lineStyle": 2,
+							"points": "140:360;140:272",
+							"nameLabel": {
+								"$ref": "AAAAAAFo/IYT8Fk4Ijc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCPreparation",
+					"_id": "AAAAAAFo/ICcxViHid0=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Inicio",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/ILPYVi5lRg=",
+							"_parent": {
+								"$ref": "AAAAAAFo/ICcxViHid0="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/ICcxViHid0="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IEK1FiRy8I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo/IEK1FiRy8I=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Usuario captura destinatario de correo",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/ILa41jChrg=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IEK1FiRy8I="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/IEK1FiRy8I="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IFbhVidthA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo/IFbhVidthA=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Usuario captura el asunto del correo electrónico",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/ILmsljLRWM=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IFbhVidthA="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/IFbhVidthA="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IG0LliqYzM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo/IG0LliqYzM=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Usuario captura el mensaje que desea enviar",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/IPccVjgD10=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IG0LliqYzM="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/IG0LliqYzM="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFo/INhiljU9Vc=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "El sistema valida que el asunto no este vacío",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/ISi81j1weM=",
+							"_parent": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							},
+							"name": "Si está vacío",
+							"source": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IPvkljpbWI="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/IU/SlkL0sU=",
+							"_parent": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							},
+							"name": "Si no está vacío",
+							"source": {
+								"$ref": "AAAAAAFo/INhiljU9Vc="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/ITvz1j/4TM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDocument",
+					"_id": "AAAAAAFo/IPvkljpbWI=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "El sistema despliega un mensaje de error indicando que el asunto está vacío"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFo/ITvz1j/4TM=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "El sistema manda el correo electrónico a destinatario",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/IXf6lkiZdM=",
+							"_parent": {
+								"$ref": "AAAAAAFo/ITvz1j/4TM="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/ITvz1j/4TM="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IWIuVkWK/s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDocument",
+					"_id": "AAAAAAFo/IWIuVkWK/s=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "El sistema despliega un mensaje de correo electrónico enviado",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFo/IYT8Fk1CV8=",
+							"_parent": {
+								"$ref": "AAAAAAFo/IWIuVkWK/s="
+							},
+							"source": {
+								"$ref": "AAAAAAFo/IWIuVkWK/s="
+							},
+							"target": {
+								"$ref": "AAAAAAFo/IX0mlkrHdM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAFo/IX0mlkrHdM=",
+					"_parent": {
+						"$ref": "AAAAAAFo/IAtaViAdNc="
+					},
+					"name": "Fin"
+				}
+			]
+		}
+	]
+}
