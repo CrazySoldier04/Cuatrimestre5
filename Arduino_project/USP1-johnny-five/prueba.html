@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+    <!--<link href="USP2-postman.js"> -->
+    <script>
+        function MierdaMayor()
+        {
+            var culo = document.getElementById("Texto1").value = "Culo ensementado";
+            alert(culo);
+        }
+    </script>
+</head>
+<body>
+    <div id="Container" name="Main_div">
+        <form id="TestForm" name="frmTest" method="GET">
+            <p id="Campo1" name="Field1">Campo 1</p>
+            <input id="Texto1" name="txtCampo1" type="text" form="TestForm"><br>
+            <input id="ButtonEnviar" name="btnEnviar" type="submit" form="TestForm" value="Enviar" onclick="MierdaMayor()">
+        </form>
+    </div>
+</body>
+</html>
