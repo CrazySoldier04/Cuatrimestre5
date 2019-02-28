@@ -1,14 +1,20 @@
 var express = require('express')
 var app = express()
-var mierda;
+const axios = require('axios')
  
-app.get('/', function (req, res)
+app.get('./prueba.html', function (req, res)
 {
-  res.send(res);
+  let body = "Culo";
+  res.send(body);
 })
  
 app.listen(3000, function()
 {
     console.log('Server is running');
-    console.log(mierda);
 });
+axios.get("http://localhost:3000/prueba.html")
+.then(function (respuesta)
+{
+  console.log(respuesta.data);
+})
+.catch((er) => {console.log(er);});
