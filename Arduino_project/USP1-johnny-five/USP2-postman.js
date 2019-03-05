@@ -6,7 +6,7 @@ var path = require('path');
 app.get('/prueba.html', function (req, res)
 {
   res.sendfile(path.join('./prueba.html'));
-  //let body = document.getElementById('txtAlexis').innerHTML;
+  //let body = "Hola";
   //res.send(body);
 })
 

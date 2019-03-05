@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Prueba</title>
-    <script type="text/javascript" src="./USP2-postman.js"></script>
+    <script src="./Eliott_test.js"></script>
 </head>
-<body onload="ceroton()">
-    <p id="txtAlexis">Alexis</p>
+<body>
+    <p id="txtAlexis" name="TestParagh">Prueba</p>
+    <form id="Form1" name="frmTest" method="POST">
+        <input id="txtPrueba" name="txtTest" type="text" form="Form1" require value="Alexis"><br><br>
+        <input id="txtPrueba2" name="txtTest2" type="text" form="Form1" require value="Oliver"><br><br>
+        <input id="Button1" name="btnAceptar" type="submit" form="Form1" value="Aceptar" onclick="Escrbir()">
+    </form>
 </body>
 </html>
