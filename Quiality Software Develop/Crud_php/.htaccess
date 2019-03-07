@@ -1,0 +1,11 @@
+#Establecer el motor de reescritura de URL.
+RewriteEngine on;
+
+#Reescritura para proyecto.php.
+RewriteRule ^palabra proyecto.php [NC,L] #NC hace la regla Non Case Sensitive.
+#L Last hace que ésta sea la última regla válida para la instrucción, que no siga adelante.
+
+#Rescribe para user/id el URL user.php?uid=.
+RewriteRule ^user/([0-9a-zA-Z]+) user.php=$1 $2 [NC,L]
+
+#Rescritura de article.php?id=1.
