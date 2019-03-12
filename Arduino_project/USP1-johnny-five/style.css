@@ -1,13 +1,6 @@
 input[type=text]
 {
     box-sizing: border-box;
-    width: 50%;
+    width: 15%;
     border-radius: 10px;
-}
-@media only screen and (max-width: 600px)
-{
-    input[type=text]
-    {
-        background-color: blue;
-    }
 }
